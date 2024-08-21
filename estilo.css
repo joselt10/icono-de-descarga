@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(74, 22, 122);
+}
+.cuadro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+    @media (min-width: 768px){
+        flex-direction: row;
+    }  
+
+}
+
+
+.containerdeiconos{
+    background-color: rgba(11, 18, 124, 0.856);
+    width: 310px;
+    height:200px ;
+    padding:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px 110px 20px 20px;
+   
+
+}
+.cabecera{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+
+}
+h1{
+    padding-left: 15px;
+}
+
+.iconos{
+    display: flex;
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+}
+.fa-file{
+    padding: 12px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left:10px ;
+    display: flex;
+    justify-content: center;
+
+}
+.fa-folder{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left:10px ;
+    display: flex;
+    align-items: center;
+}
+.fa-cloud-arrow-up{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left:10px ;
+    display: flex;
+    align-items: center;
+}
+
+.containerdedescarga{
+    background-color:  rgba(11, 18, 124, 0.856);
+    width: 550px;
+
+    color: rgb(0, 0, 0);
+    padding:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+
+
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.primera{
+    margin-bottom: 10px;
+}
+span{
+    color: white;
+}
+progress{
+    height: 20px;
+    width: 470px;
+}
+.gb{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.coment{
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 110px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px 10px 0 10px;
+    z-index: 1;
+    left: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+}
+.triangulo{
+    border-top: solid transparent 30px;
+    border-left: solid transparent 0px;
+    border-right: solid rgb(255, 255, 255) 30px;
+    border-bottom: solid transparent 30px;
+ position: relative;
+bottom: 95px;
+left: 200px;
+}
+.numero{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: black;
+    padding-right: 10px;
+}
